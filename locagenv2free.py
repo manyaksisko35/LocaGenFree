@@ -204,7 +204,7 @@ class LocaGenAppFree(ctk.CTk):
         
         self.lbl_pro_ad = ctk.CTkLabel(self.card_settings, text="★ Get LocaGen PRO for CSV/TXT support and Glossary ★", text_color="#F4D03F", font=font_small, cursor="hand2")
         self.lbl_pro_ad.pack(pady=(15, 15))
-        self.lbl_pro_ad.bind("<Button-1>", lambda e: webbrowser.open("https://manyaksisko35.itch.io/locagen-pro-universal-game-localization-tool"))
+        self.lbl_pro_ad.bind("<Button-1>", lambda e: webbrowser.open("https://hasan-alp-gungor.itch.io/locagen-pro-universal-game-localization-tool"))
 
         self.btn_start = ctk.CTkButton(self, text="I N I T I A T E", command=self.initiate_save_process, 
                                        fg_color=COLOR_BTN_MAIN, hover_color=COLOR_BTN_MAIN_HOVER, height=60, corner_radius=5, 
