@@ -1,9 +1,9 @@
 # LocaGen FREE
 
-LocaGen FREE is a small desktop tool I made for translating game localization files. You pick a JSON file, choose a target language, and it translates every value with Google Translate while leaving the keys alone. Before sending a string to the translator it swaps placeholders such as `{name}`, `<b>`, `%s` and `%d` for temporary tokens, then puts the originals back, so the variables your game code depends on stay as they were. This is the free version of LocaGen; the bigger version is LocaGen PRO.
+LocaGen FREE is a small desktop tool I made for translating game localization files. You pick a JSON file, choose a target language, and it translates every value with Google Translate while leaving the keys alone. Before sending a string to the translator it swaps placeholders such as `{name}`, `<b>`, `%s` and `%d` for temporary tokens, then puts the originals back, so the variables your game code depends on stay as they were. This is the free edition of LocaGen; the paid LocaGen PRO edition adds CSV and TXT files, 25+ languages and a Smart Glossary for game terms.
 
-- Other version: [LocaGen PRO](https://github.com/manyaksisko35/LocaGenPHP) (PHP + MySQL web app, translates with the Gemini API)
-- itch.io: [LocaGen PRO - Universal Game Localization Tool](https://hasan-alp-gungor.itch.io/locagen-pro-universal-game-localization-tool)
+- LocaGen PRO and this Free edition on itch.io: [LocaGen Pro - Universal Game Localization Tool](https://hasan-alp-gungor.itch.io/locagen-pro-universal-game-localization-tool)
+- Separate web version: [LocaGen PHP](https://github.com/manyaksisko35/LocaGenPHP) (PHP + MySQL web app, translates with the Gemini API)
 - Project page: [hasanalpgungor.com/en/projects/locagen](https://hasanalpgungor.com/en/projects/locagen)
 
 ## Features
