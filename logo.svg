@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1c0640"/><stop offset="1" stop-color="#05010a"/></linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.42" r="0.6"><stop offset="0" stop-color="#b026ff" stop-opacity="0.35"/><stop offset="1" stop-color="#b026ff" stop-opacity="0"/></radialGradient>
+    <linearGradient id="sheen" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffffff" stop-opacity="0.16"/><stop offset="0.5" stop-color="#ffffff" stop-opacity="0"/></linearGradient>
+    <linearGradient id="neon" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#c04dff"/><stop offset="1" stop-color="#00f0ff"/></linearGradient>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffffff" stop-opacity="0.75"/><stop offset="0.35" stop-color="#b026ff" stop-opacity="0.7"/><stop offset="1" stop-color="#00f0ff" stop-opacity="0.55"/></linearGradient>
+    <filter id="soft" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="10" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect x="8" y="8" width="496" height="496" rx="112" fill="url(#bg)"/>
+  <rect x="8" y="8" width="496" height="496" rx="112" fill="url(#glow)"/>
+  <rect x="8" y="8" width="496" height="496" rx="112" fill="url(#sheen)"/>
+  <rect x="10" y="10" width="492" height="492" rx="110" fill="none" stroke="url(#edge)" stroke-width="4"/>
+  <g filter="url(#soft)" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M160 116 H108 V396 H160" stroke="#b026ff" stroke-width="40"/>
+    <path d="M352 116 H404 V396 H352" stroke="#00f0ff" stroke-width="40"/>
+    <circle cx="256" cy="256" r="92" stroke="url(#neon)" stroke-width="22"/>
+    <ellipse cx="256" cy="256" rx="40" ry="92" stroke="url(#neon)" stroke-width="14"/>
+    <path d="M166 256 H346 M184 206 H328 M184 306 H328" stroke="url(#neon)" stroke-width="14"/>
+  </g>
+</svg>

@@ -1,0 +1,5 @@
+deep-translator
+requests
+Pillow
+numpy
+tkinterdnd2
